@@ -1,0 +1,37 @@
+{
+  "name": "@hps/cache",
+  "version": "1.0.10",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "typings": "lib/index.d.ts",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "typedoc": "typedoc"
+  },
+  "keywords": [],
+  "files": [
+    "lib",
+    "src"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.9.0",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-typedoc": "^3.0.2",
+    "gulp-uglify": "^3.0.2",
+    "typedoc": "^0.25.6",
+    "typedoc-plugin-markdown": "^3.17.1"
+  }
+}

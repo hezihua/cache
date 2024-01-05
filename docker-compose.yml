@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5566:80
+    volumes:
+      - D:\project\lab\cache\docs:/usr/share/nginx/html
